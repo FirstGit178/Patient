@@ -29,7 +29,7 @@ public class Patient {
         void setPatientInsert(Object PatientInsertSQL){
         try (Connection conn = DriverManager.getConnection("url" "password")) ;
             PatientInsertSQL = "INSERT INTO Patient Given Name Values('" + name + "')";
-            close connection = conn.close;
+            //close connection = conn.close;
         }
         //******Dont forget to close*********
 }
